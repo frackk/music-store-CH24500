@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet"> 
+    <title>Contáctanos</title>
+</head>
+<body>
+    <header>
+        <div class='containerHeader'>
+             <nav class="nav-header">
+                 <ul>
+                     <img src="../assets/logo.png" alt="" class="logo">
+                     <li>
+                         <a href="../index.html">Ayuda</a>
+                             <ul class="subMenu">
+                                 <li><a href="contactactanos.html">Contáctanos</a></li>
+                                 <li><a href="./soporte-tecnico.html">Soporte técnico</a></li>
+                             </ul>
+                     </li>
+                     <li><a href="../index.html">Home</a></li>
+                 </ul>
+             </nav>
+         </div>
+     </header>
+    <main class="main">
+        <h1>Contáctanos!</h1>
+        <form action="" method="get" enctype="text/plain">
+            <fieldset>
+                <legend>Ingrese sus datos</legend>
+                <br>
+                    <label for="info-personal">Nombre</label>
+                    <input type="text" name="userName" id="info-personal" placeholder="Nombre">
+                <br>
+                <br>
+                    <label for="info-personal">Apellido</label>
+                    <input type="text" name="userLastName" id="info-personal" placeholder="Apellido">
+                <br>
+                <br>
+                    <label for="user-email">Email</label>
+                    <input type="email" name="userEmail" id="" placeholder="Email">
+                <br>
+                <br>
+                    <textarea name="userMensaje" id="" cols="30" rows="10" placeholder="Tu Mensaje!"></textarea>
+                <br>
+                <br>
+                <label for="motivo">Cuál es el motivo de su mensaje?</label>
+                <select name="userMotivo" id="motivo">
+                    <option value="" disabled selected>Selecione una opción</option>
+                    <option value="Ayuda">Ayuda</option>
+                    <option value="Ofertas">Ofertas</option>
+                    <option value="Trabajo">Trabajo</option>
+                    <option value="Otro-motivo">Otro motivo</option>
+                </select>
+                <br>
+                <br>   
+                <input type="checkbox" name="checkboxSpamm" id=""> Recibir información sobre ofertas y actualizaciones.
+                <br>
+                <br>
+                <input type="reset" value="Reset" class="reset">
+                <input type="submit" value="Enviar" class="submit">
+            </fieldset>    
+        </form>
+    </main>
+    <footer class="footer">
+        <nav>
+            <ul>
+                <li>
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="contactactanos.html">Contáctanos</a> <!--En esta sección se encuentra el formulario <form></form>-->
+                </li>
+                <li>
+                    <a href="./soporte-tecnico.html">Soporte técnico</a>
+                </li>
+                    <h6>© 2021.</h6>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

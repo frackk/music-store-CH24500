@@ -1,0 +1,19 @@
+{
+  "name": "proyecto2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "comp": "node-sass scss -o css",
+    "comp2": "node-sass scss/main.scss css/main.css",
+    "watch-css": "node-sass --watch scss/main.scss css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

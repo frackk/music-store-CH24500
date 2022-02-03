@@ -1,0 +1,349 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    /**background-color: rgb(243, 221, 193);**/
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    /**background-image: url("./assets/blurBackground.png");**/
+    background-repeat: no-repeat;
+    background-size: 500rem;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-color: rgb(201, 201, 201);
+    overflow-x: hidden
+}
+
+.nav-header {
+    list-style: none;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: black;
+    font-weight: 700;
+    text-decoration: none;
+    background-size: cover;
+    /*top: 0;
+    left: 0;*/ 
+}
+
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+div nav a {
+    background-color: black;
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    transition: 0.3s;
+}
+
+div nav a:hover {opacity: 0.4; color: white;}
+
+div nav ul {
+    list-style: none;
+    background-color: black;
+    padding: 20px;
+    margin: 0px;
+    /**flex-direction: column;**/
+}
+
+div nav li {
+    background-color: black;
+    display: inline-block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    margin: 0px;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li:hover ul {
+    display: block;
+
+}
+
+.subMenu li {
+    display: black;
+    position: relative;
+}
+
+/**@media only screen and (min-width: 768px) {
+    .navBtn {
+        display: none;
+    }
+    .nav-header {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        position: inherit;
+    }
+}**/
+
+.logo {
+    display: flex;
+    margin-left: 90px;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.logo:hover {opacity: 0.4}
+
+@media only screen and (max-width : 768px) {
+   .logo {
+    display: flex;
+    margin-left: 30px;
+    width: 250px;
+    transition: 0.3s;
+   }
+}
+
+@media only screen and (max-width : 320px) {
+   .logo {
+    display: flex;
+    margin-left: 0px;
+    width: 150px;
+    transition: 0.3s; 
+   }
+}
+
+div a {
+    background-color: black;
+    text-decoration: none;
+    margin: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px; 
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'IM Fell English', serif;
+    background-color: rgb(240, 175, 89);
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+.tittleDesc {
+    padding-top: 30px;
+    padding-left: 75px;
+    font-weight: 1000;
+}
+
+.desc {
+    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+table {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table tbody tr td {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carouselSlide {
+    margin: 100px;
+}
+
+.footer {
+    text-align: center;
+    font-weight: 595;
+    background-color: black;
+    list-style: none;
+    /**position: fixed;
+    bottom: 0px;**/
+}
+
+footer nav {
+    background-color: black;
+    
+}
+
+footer nav ul {
+    list-style: none;
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+}
+
+footer nav ul li {
+    background-color: black;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 25px 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+footer nav ul li a {
+    background-color: black;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+footer nav ul li a:hover {opacity: 0.4; color: white;}
+
+h6 {
+    background-color: black;
+    color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactTitle {
+    text-align: center;
+    background-color: rgb(240, 175, 89);
+}
+
+.reset {
+    margin-bottom: 10px;
+}
+
+.submit {
+    margin-bottom: 10px;
+}
+
+.pTec {
+    margin: 50px;
+}
+
+main section ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.blank {
+    margin-bottom: 30px;
+}
+/**.main {
+    background-color: rgb(243, 221, 193);
+}
+
+.videoDesc {
+    padding: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}**/
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+    gap: 1rem;
+}
+
+.grid-container a{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 39%, rgba(84,84,84,1) 100%);
+}
+
+@media only screen 
+   and (min-width : 768px) {
+   .grid-container {
+        grid-template-columns: 1fr 1fr;
+   }
+}
+
+@media only screen and (min-width : 1200px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.vidGuitar {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width : 425px) {
+    .vidGuitar {
+     display: flex;
+     justify-content: center;
+     width: 435px;
+    }
+ }
+
+ @media only screen and (max-width : 320px) {
+    .vidGuitar {
+        display: flex;
+        justify-content: center;
+        width: 304px;
+    }
+ }
+
+/**.btn {
+
+}**/
+
+.btn-danger {
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 0px;
+}
+
+.btn-danger:hover {
+    background-color: rgb(34, 34, 34);
+    transition: 0.3s;
+}
+
+div a input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body main h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+body main hr {
+    margin-top: 20px;
+}
+
