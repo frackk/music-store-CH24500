@@ -11,37 +11,37 @@
     margin: 0px;
     width: 1682.66px; } }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   .vid__guitar {
     padding-bottom: 20px;
     margin: 0px;
     width: 936px; } }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .vid__guitar {
     padding-bottom: 20px;
     margin: 0px;
     width: 659.66px; } }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .vid__guitar {
     padding-bottom: 20px;
     margin: 0px;
     width: 487.98px; } }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) {
   .vid__guitar {
     padding-bottom: 20px;
     margin: 0px;
     width: 409px; } }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
   .vid__guitar {
     padding-bottom: 20px;
     margin: 0px;
     width: 359px; } }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
   .vid__guitar {
     padding-bottom: 20px;
     margin: 0px;
@@ -52,7 +52,9 @@
   display: flex;
   justify-content: center;
   background-color: #c5c5c5;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  color: black;
+  padding: 3px; }
 
 /* botón cards tienda */
 .btn-primary {
@@ -85,6 +87,7 @@
   outline: none !important;
   box-shadow: none; }
 
+/* footer */
 .footer .footer__heading {
   text-align: center;
   list-style: none; }
