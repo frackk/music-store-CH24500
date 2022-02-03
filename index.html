@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
 	<!-- meta tags -->
 	<meta charset="utf-8">
@@ -19,10 +19,10 @@
 	<link rel="stylesheet" href="./css/main.css">
 
 </head>
-<body>
+<body class="tema-night">
 
 <!-- header -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+<nav class="navbar navbar-expand-lg navbar-dark tema-background-nav">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#">
 			<img src="./assets/logo.png" width="200" height="50" class="d-inline-block align-top" alt="">
@@ -36,10 +36,10 @@
 					<a class="nav-link active text-end pe-4" aria-current="page" href="index.html">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-end pe-4" href="./footer/tienda.html">Tienda</a>
+					<a class="nav-link text-end pe-4 tema-text-nav" href="./footer/tienda.html">Tienda</a>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-end pe-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<a class="nav-link dropdown-toggle text-end pe-4 tema-text-nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Ayuda
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -49,13 +49,16 @@
 				</li>
 			</ul>
 		</div>
+		<form class="d-flex">
+			<button class="btn btn-primary shadow-sm" type="button">☀️ | 🌙</button>
+		  </form>
 	</div>
 </nav>
 
-<main>
+<main class="tema-background">
 	<section class="p-5">
-		<h2>Bienvenidos a Music Store</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quasi cumque harum, voluptatem ipsum quidem, animi asperiores iusto dignissimos suscipit rerum dolor enim. Cupiditate ad aut iste commodi, sapiente aperiam doloribus necessitatibus accusantium alias velit debitis at, sequi eum officia, dolore laboriosam. Tenetur recusandae quae assumenda, laborum doloremque temporibus. Ea saepe atque quas odio magni pariatur in cupiditate, autem doloremque?</p>
+		<h2 class="tema-text">Bienvenidos a Music Store</h2>
+		<p class="tema-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quasi cumque harum, voluptatem ipsum quidem, animi asperiores iusto dignissimos suscipit rerum dolor enim. Cupiditate ad aut iste commodi, sapiente aperiam doloribus necessitatibus accusantium alias velit debitis at, sequi eum officia, dolore laboriosam. Tenetur recusandae quae assumenda, laborum doloremque temporibus. Ea saepe atque quas odio magni pariatur in cupiditate, autem doloremque?</p>
 	</section>
 
 <!-- carousel -->
@@ -99,7 +102,7 @@
 	</section>
 
 	<section class="row">
-		<h2 class="d-flex justify-content-center pt-5 p-4">Con tu música a todos lados.</h2>
+		<h2 class="d-flex justify-content-center pt-5 p-4 tema-text">Con tu música a todos lados.</h2>
 	</section>
 
 	<section class="row d-block">
@@ -112,15 +115,15 @@
 <!-- footer -->
 <footer class="footer">
 	<nav class="footer__heading">
-	  <ul class="footer__list">
+	  <ul class="footer__list tema-background-nav">
 		<li class="footer__list__item">
-		  <a href="./footer/nosotros.html" class="footer__link">Nosotros</a>
+		  <a href="./footer/nosotros.html" class="footer__link tema-text-nav">Nosotros</a>
 		</li>
 		<li class="footer__list__item">
-		  <a href="./footer/contactactanos.html" class="footer__link">Contáctanos</a>
+		  <a href="./footer/contactactanos.html" class="footer__link tema-text-nav">Contáctanos</a>
 		</li>
 		<li class="footer__list__item">
-		  <a href="./footer/soporte-tecnico.html" class="footer__link">Soporte técnico</a>
+		  <a href="./footer/soporte-tecnico.html" class="footer__link tema-text-nav">Soporte técnico</a>
 		</li>
 		  <h6 class="footer__copyright">© 2021.</h6>
 	  </ul>
