@@ -65,9 +65,9 @@
 .tit__tienda {
     display: flex;
     justify-content: center;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(118, 118, 118);
     margin-bottom: 0px;
-    color: black;
+    color: rgb(20, 19, 19);
     padding: 3px;
 }
 
@@ -146,12 +146,16 @@ $tema-map: (                                    /* mapa que contiene los diferen
     color: black,
     nav-background: black,
     nav-color: white,
+    tienda-card: white,
+    tienda-card-text: black
   ),
     night: (                                    /* mapa 2 */
     background-color: rgb(64, 64, 64),
     color: rgb(199, 199, 199),
     nav-background: rgb(32, 32, 32),
-    nav-color: rgb(199, 199, 199)
+    nav-color: rgb(199, 199, 199),
+    tienda-card: rgb(32, 32, 32),
+    tienda-card-text: rgb(199, 199, 199)
   ),
 );
 
@@ -168,6 +172,12 @@ $tema-map: (                                    /* mapa que contiene los diferen
         }
         .tema-text-nav {
             color: map-get($map, nav-color);
+        }
+        .tema-tienda-card {
+            background-color: map-get($map, tienda-card);
+        }
+        .tema-card-text {
+            color: map-get($map, tienda-card-text);
         }
     }
  }

@@ -51,9 +51,9 @@
 .tit__tienda {
   display: flex;
   justify-content: center;
-  background-color: #c5c5c5;
+  background-color: #767676;
   margin-bottom: 0px;
-  color: black;
+  color: #141313;
   padding: 3px; }
 
 /* botón cards tienda */
@@ -127,6 +127,10 @@
     background-color: black; }
   .tema-light .tema-text-nav {
     color: white; }
+  .tema-light .tema-tienda-card {
+    background-color: white; }
+  .tema-light .tema-card-text {
+    color: black; }
 
 .tema-night {
   /* dependiendo que mapa se elija, 1 o 2 toma los diferentes valores en $map*/ }
@@ -140,4 +144,8 @@
   .tema-night .tema-background-nav {
     background-color: #202020; }
   .tema-night .tema-text-nav {
+    color: #c7c7c7; }
+  .tema-night .tema-tienda-card {
+    background-color: #202020; }
+  .tema-night .tema-card-text {
     color: #c7c7c7; }

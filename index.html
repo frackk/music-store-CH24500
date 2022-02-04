@@ -49,7 +49,7 @@
 				</li>
 				<li>
 					<div class="d-flex justify-content-end">
-						<a class="btn btn-primary shadow-sm" type="button">Tema ☀️ | 🌙</a>
+						<a class="btn btn-primary shadow-sm" type="button" id="temaBtn">Tema ☀️ | 🌙</a>
 					</div>
 				</li>
 			</ul>
@@ -136,6 +136,26 @@
 
 <!-- boostrap javascript link -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- boton javascript tema -->
+<script>
+	let dark = false;
+	const temaBtn = document.querySelector('#temaBtn');
+	const body = document.querySelector('body');
+	
+	temaBtn.addEventListener('click', () => {
+	  dark = !dark;
+	
+	  if (dark) {
+		body.classList.remove('tema-light');
+		body.classList.add('tema-night')
+	  } else {
+		body.classList.remove('tema-night');
+		body.classList.add('tema-light');
+	  }
+	});
+	  
+	</script>
 
 </body>
 </html>
