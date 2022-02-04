@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="./css/main.css">
 
 </head>
-<body class="tema-night">
+<body class="tema-light">
 
 <!-- header -->
 <nav class="navbar navbar-expand-lg navbar-dark tema-background-nav">
@@ -47,11 +47,13 @@
 						<li><a class="dropdown-item text-end pe-5" href="./footer/soporte-tecnico.html">Soporte técnico</a></li>
 					</ul>
 				</li>
+				<li>
+					<div class="d-flex justify-content-end">
+						<a class="btn btn-primary shadow-sm" type="button">Tema ☀️ | 🌙</a>
+					</div>
+				</li>
 			</ul>
 		</div>
-		<form class="d-flex">
-			<button class="btn btn-primary shadow-sm" type="button">☀️ | 🌙</button>
-		  </form>
 	</div>
 </nav>
 
@@ -100,14 +102,16 @@
 	</section>
 
 	<section class="">
-		<h2 class="d-flex justify-content-center pt-5 p-4 tema-text">Con tu música a todos lados.</h2>
+		<h2 class="d-flex justify-content-center p-5 tema-text">Con tu música a todos lados.</h2>
 	</section>
 
-	<section class="d-block">
-		<div class="d-flex justify-content-center">
-			<video src="./assets/vidGuitar.mp4" autoplay muted loop class="vid__guitar"></video>
-		</div>
-	</section>
+	<section class="pb-3 mx-2 row">
+		<div class="col-lg-2 col-md-2"></div>
+			  <article class="col-lg-8 col-md-8">
+				  <video src="./assets/vidGuitar.mp4"  autoplay muted loop class="w-100"></video>
+			  </article>
+		<div class="col-lg-2 col-md-2"></div>
+  </section>
 </main>
 
 <!-- footer -->
