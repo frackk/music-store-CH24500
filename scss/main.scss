@@ -140,6 +140,10 @@
 }
 
 /* night light mode tema */
+$gris: rgb(64, 64, 64);
+$gris-claro: rgb(199, 199, 199);
+$gris-oscuro: rgb(32, 32, 32);
+
 $tema-map: (                                    /* mapa que contiene los diferentes mapas */
     light: (                                    /* mapa 1 */
     background-color: white,
@@ -150,12 +154,12 @@ $tema-map: (                                    /* mapa que contiene los diferen
     tienda-card-text: black
   ),
     night: (                                    /* mapa 2 */
-    background-color: rgb(64, 64, 64),
-    color: rgb(199, 199, 199),
-    nav-background: rgb(32, 32, 32),
-    nav-color: rgb(199, 199, 199),
-    tienda-card: rgb(32, 32, 32),
-    tienda-card-text: rgb(199, 199, 199)
+    background-color: $gris,
+    color: $gris-claro,
+    nav-background: $gris-oscuro,
+    nav-color: $gris-claro,
+    tienda-card: $gris-oscuro,
+    tienda-card-text: $gris-claro
   ),
 );
 
