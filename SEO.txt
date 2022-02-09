@@ -1,0 +1,1 @@
+Para mejorar el seo de la página agregué títulos personalizados a la misma, agregué parrafos, completé los nombres de las cartas en la tienda con palabras claves de productos reales para salir en recomendaciones de búsquedas junto a sus precios, se agregó página error 404, y se mejoró la navegación entre las mismas, se renombró la carpeta para que sea mas entendible.
