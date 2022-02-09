@@ -185,3 +185,26 @@ $tema-map: (                                    /* mapa que contiene los diferen
         }
     }
  }
+
+ /* error 404 */
+ .error404body {
+    background-image: url(../assets/error404.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    height: 100VH;
+    .error404div {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .error404 {
+        color: rgb(177, 177, 177);
+    }
+    .error404parrf {
+        color: rgb(177, 177, 177);;
+    }
+ }
