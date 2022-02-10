@@ -1,7 +1,15 @@
+@import "colors";
+
+@import "fonts";
+
+@import "base";
+
+@import "utils";
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font;
 }
 
 /* responsive video index */
@@ -73,31 +81,31 @@
 
 /* botón cards tienda */
  .btn-primary {
-     background-color: rgb(92, 92, 92);
-     border-color: rgb(92, 92, 92);
+     background-color: $btn-color;
+     border-color: $btn-color;
  }
 
 .btn-primary:hover {
-    background-color: rgb(170, 170, 170);
-    border-color: rgb(170, 170, 170);
+    background-color: $btn-hover-color;
+    border-color: $btn-hover-color;
     color: black;
 }
 
 .btn-primary:active {
-    background-color: rgb(170, 170, 170);
-    border-color: rgb(170, 170, 170);
+    background-color: $btn-hover-color;
+    border-color: $btn-hover-color;
     color: black;
 }
 
 .btn-primary:link {
-    background-color: rgb(170, 170, 170);
-    border-color: rgb(170, 170, 170);
+    background-color: $btn-hover-color;
+    border-color: $btn-hover-color;
     color: black;
 }
 
 .btn-primary:focus {
-    background-color: rgb(170, 170, 170);
-    border-color: rgb(170, 170, 170);
+    background-color: $btn-hover-color;
+    border-color: $btn-hover-color;
     color: black;
     outline: none;
     box-shadow: none;
@@ -138,53 +146,6 @@
         }
     }
 }
-
-/* night light mode tema */
-$gris: rgb(64, 64, 64);
-$gris-claro: rgb(199, 199, 199);
-$gris-oscuro: rgb(32, 32, 32);
-
-$tema-map: (                                    /* mapa que contiene los diferentes mapas */
-    light: (                                    /* mapa 1 */
-    background-color: white,
-    color: black,
-    nav-background: black,
-    nav-color: white,
-    tienda-card: white,
-    tienda-card-text: black
-  ),
-    night: (                                    /* mapa 2 */
-    background-color: $gris,
-    color: $gris-claro,
-    nav-background: $gris-oscuro,
-    nav-color: $gris-claro,
-    tienda-card: $gris-oscuro,
-    tienda-card-text: $gris-claro
-  ),
-);
-
-@each $diferente-tema, $map in $tema-map {
-    .tema-#{$diferente-tema} {                           /* dependiendo que mapa se elija, 1 o 2 toma los diferentes valores en $map*/
-        .tema-background {
-             background-color: map-get($map, background-color);  /* valor bg del $map */             /* map-get toma el valor del nombre que se le indique */
-        }
-        .tema-text {
-            color: map-get($map, color);                        /* valor color del $map */
-        }
-        .tema-background-nav {
-            background-color: map-get($map, nav-background);
-        }
-        .tema-text-nav {
-            color: map-get($map, nav-color);
-        }
-        .tema-tienda-card {
-            background-color: map-get($map, tienda-card);
-        }
-        .tema-card-text {
-            color: map-get($map, tienda-card-text);
-        }
-    }
- }
 
  /* error 404 */
  .error404body {

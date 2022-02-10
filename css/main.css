@@ -1,8 +1,48 @@
 @charset "UTF-8";
+/* botón cards tienda */
+/* night light mode tema */
+/* night light mode tema */
+/* light night mode map */
+.tema-light {
+  /* dependiendo que mapa se elija, 1 o 2 toma los diferentes valores en $map*/ }
+  .tema-light .tema-background {
+    background-color: white;
+    /* valor bg del $map */
+    /* map-get toma el valor del nombre que se le indique */ }
+  .tema-light .tema-text {
+    color: black;
+    /* valor color del $map */ }
+  .tema-light .tema-background-nav {
+    background-color: black; }
+  .tema-light .tema-text-nav {
+    color: white; }
+  .tema-light .tema-tienda-card {
+    background-color: white; }
+  .tema-light .tema-card-text {
+    color: black; }
+
+.tema-night {
+  /* dependiendo que mapa se elija, 1 o 2 toma los diferentes valores en $map*/ }
+  .tema-night .tema-background {
+    background-color: #404040;
+    /* valor bg del $map */
+    /* map-get toma el valor del nombre que se le indique */ }
+  .tema-night .tema-text {
+    color: #c7c7c7;
+    /* valor color del $map */ }
+  .tema-night .tema-background-nav {
+    background-color: #202020; }
+  .tema-night .tema-text-nav {
+    color: #c7c7c7; }
+  .tema-night .tema-tienda-card {
+    background-color: #202020; }
+  .tema-night .tema-card-text {
+    color: #c7c7c7; }
+
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 /* responsive video index */
 @media only screen and (max-width: 2560px) {
@@ -112,43 +152,6 @@
       .footer .footer__heading .footer__list .footer__list__item .footer__link:hover {
         opacity: 0.4;
         color: white; }
-
-/* night light mode tema */
-.tema-light {
-  /* dependiendo que mapa se elija, 1 o 2 toma los diferentes valores en $map*/ }
-  .tema-light .tema-background {
-    background-color: white;
-    /* valor bg del $map */
-    /* map-get toma el valor del nombre que se le indique */ }
-  .tema-light .tema-text {
-    color: black;
-    /* valor color del $map */ }
-  .tema-light .tema-background-nav {
-    background-color: black; }
-  .tema-light .tema-text-nav {
-    color: white; }
-  .tema-light .tema-tienda-card {
-    background-color: white; }
-  .tema-light .tema-card-text {
-    color: black; }
-
-.tema-night {
-  /* dependiendo que mapa se elija, 1 o 2 toma los diferentes valores en $map*/ }
-  .tema-night .tema-background {
-    background-color: #404040;
-    /* valor bg del $map */
-    /* map-get toma el valor del nombre que se le indique */ }
-  .tema-night .tema-text {
-    color: #c7c7c7;
-    /* valor color del $map */ }
-  .tema-night .tema-background-nav {
-    background-color: #202020; }
-  .tema-night .tema-text-nav {
-    color: #c7c7c7; }
-  .tema-night .tema-tienda-card {
-    background-color: #202020; }
-  .tema-night .tema-card-text {
-    color: #c7c7c7; }
 
 /* error 404 */
 .error404body {

@@ -1,0 +1,19 @@
+/* night light mode tema */
+$tema-map: (                                    /* mapa que contiene los diferentes mapas */
+    light: (                                    /* mapa 1 */
+    background-color: white,
+    color: black,
+    nav-background: black,
+    nav-color: white,
+    tienda-card: white,
+    tienda-card-text: black
+  ),
+    night: (                                    /* mapa 2 */
+    background-color: $gris,
+    color: $gris-claro,
+    nav-background: $gris-oscuro,
+    nav-color: $gris-claro,
+    tienda-card: $gris-oscuro,
+    tienda-card-text: $gris-claro
+  ),
+);
