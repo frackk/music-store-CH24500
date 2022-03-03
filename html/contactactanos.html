@@ -54,46 +54,68 @@
         </div>
     </nav>
 
-<!-- titulo tienda -->
-<h1 class="tit__tienda">Contáctanos</h1>
-    <main class="main">
-        <form action="" method="get" enctype="text/plain">
-            <fieldset>
-                <legend>Ingrese sus datos</legend>
-                <br>
-                    <label for="info-personal">Nombre</label>
-                    <input type="text" name="userName" id="info-personal" placeholder="Nombre">
-                <br>
-                <br>
-                    <label for="info-personal">Apellido</label>
-                    <input type="text" name="userLastName" id="info-personal" placeholder="Apellido">
-                <br>
-                <br>
-                    <label for="user-email">Email</label>
-                    <input type="email" name="userEmail" id="" placeholder="Email">
-                <br>
-                <br>
-                    <textarea name="userMensaje" id="" cols="30" rows="10" placeholder="Tu Mensaje!"></textarea>
-                <br>
-                <br>
-                <label for="motivo">Cuál es el motivo de su mensaje?</label>
-                <select name="userMotivo" id="motivo">
-                    <option value="" disabled selected>Selecione una opción</option>
-                    <option value="Ayuda">Ayuda</option>
-                    <option value="Ofertas">Ofertas</option>
-                    <option value="Trabajo">Trabajo</option>
-                    <option value="Otro-motivo">Otro motivo</option>
+
+<main class="main tema-background">
+<h1 class="tit__tienda d-flex justify-content-center pt-2 pb-2 mb-0">Contáctanos</h1>
+
+<!-- form -->
+<div class="d-flex justify-content-center pt-5 pb-5">
+    <div class="col-md-8">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="Nombre" class="form-label tema-text">Nombre</label>
+              <input type="text" class="form-control shadow" id="Nombre" placeholder="Nombre">
+            </div>
+            <div class="col-md-6">
+              <label for="Apellido" class="form-label tema-text">Apellido</label>
+              <input type="text" class="form-control shadow" id="Apellido" placeholder="Apellido">
+            </div>
+            <div class="col-12">
+              <label for="Email" class="form-label tema-text">Email</label>
+              <input type="email" class="form-control shadow" id="Email" placeholder="Email">
+            </div>
+            <div class="col-md-6">
+                <label for="motivo" class="form-label tema-text">Motivo de consulta</label>
+                <select id="motivo" class="form-select shadow">
+                  <option disabled selected>Elija una opción</option>
+                  <option>Problemas técnicos</option>
+                  <option>Ofertas</option>
+                  <option>Trabajo</option>
+                  <option>Otro motivo</option>
                 </select>
-                <br>
-                <br>   
-                <input type="checkbox" name="checkboxSpamm" id=""> Recibir información sobre ofertas y actualizaciones.
-                <br>
-                <br>
-                <input type="reset" value="Reset" class="reset">
-                <input type="submit" value="Enviar" class="submit">
-            </fieldset>    
+              </div>
+            <div class="col-md-6">
+                <label for="motivo" class="form-label tema-text">Qué tan urgente es su consulta</label>
+                <select id="motivo" class="form-select shadow">
+                  <option disabled selected>Elija una opción</option>
+                  <option>Urgente</option>
+                  <option>No tan urgente</option>
+                  <option>Puedo esperar</option>
+                </select>
+              </div>
+            <div class="col-md-12">
+              <label for="mensaje" class="form-label tema-text">Escriba su mensaje</label>
+              <textarea class="form-control shadow" id="exampleFormControlTextarea1" rows="3" placeholder="Su mensaje"></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label tema-text" for="gridCheck">
+                  Recibir notificaciones de futuras respuestas
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary shadow">Enviar</button>
+            </div>
         </form>
-    </main>
+    </div>
+</div>
+
+<p class="h3 d-flex justify-content-center text-center pt-3 pb-3 tema-text">Gracias por contactarte con nosotros!<br>estaremos respondiendote dentro de 3 días hábiles. Saludos!</p>
+<p class="h1 d-flex justify-content-center text-center tema-text pb-0">Music Store</p>
+<p class="h4 d-flex justify-content-center text-center tema-text pb-4 m-0">Con tu música a todos lados</p>
+</main>
     
 <!-- footer -->
 <footer class="footer">
@@ -113,7 +135,7 @@
 	</nav>
   </footer>
 
-    <!-- boostrap javascript link -->
+<!-- boostrap javascript link -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 <!-- boton javascript tema -->

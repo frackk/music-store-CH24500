@@ -12,7 +12,7 @@
     font-family: $font;
 }
 
-/* responsive video index */
+/* responsive video index
 @media only screen and (max-width : 2560px) {
     .vid__guitar {
         padding-bottom: 20px;
@@ -67,7 +67,7 @@
         margin: 0px;
         width: 304px;
     }
- }
+ } */
 
 /* título tienda */
 .tit__tienda {
@@ -163,9 +163,9 @@
         transform: translate(-50%, -50%);
     }
     .error404 {
-        color: rgb(177, 177, 177);
+        color: $btn-hover-color;
     }
     .error404parrf {
-        color: rgb(177, 177, 177);;
+        color: $btn-hover-color;
     }
  }

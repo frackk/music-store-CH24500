@@ -44,49 +44,62 @@
   padding: 0px;
   font-family: "Roboto", sans-serif; }
 
-/* responsive video index */
-@media only screen and (max-width: 2560px) {
-  .vid__guitar {
-    padding-bottom: 20px;
-    margin: 0px;
-    width: 1682.66px; } }
+/* responsive video index
+@media only screen and (max-width : 2560px) {
+    .vid__guitar {
+        padding-bottom: 20px;
+        margin: 0px;
+        width: 1682.66px;
+    }
+ }
 
-@media only screen and (max-width: 1440px) {
-  .vid__guitar {
-    padding-bottom: 20px;
-    margin: 0px;
-    width: 936px; } }
+@media only screen and (max-width : 1440px) {
+    .vid__guitar {
+        padding-bottom: 20px;
+        margin: 0px;
+        width: 936px;
+    }
+ }
 
-@media only screen and (max-width: 1024px) {
-  .vid__guitar {
-    padding-bottom: 20px;
-    margin: 0px;
-    width: 659.66px; } }
+@media only screen and (max-width : 1024px) {
+    .vid__guitar {
+        padding-bottom: 20px;
+        margin: 0px;
+        width: 659.66px;
+    }
+ }
 
-@media only screen and (max-width: 768px) {
-  .vid__guitar {
-    padding-bottom: 20px;
-    margin: 0px;
-    width: 487.98px; } }
+@media only screen and (max-width : 768px) {
+    .vid__guitar {
+        padding-bottom: 20px;
+        margin: 0px;
+        width: 487.98px;
+    }
+ }
 
-@media only screen and (max-width: 425px) {
-  .vid__guitar {
-    padding-bottom: 20px;
-    margin: 0px;
-    width: 409px; } }
+@media only screen and (max-width : 425px) {
+   .vid__guitar {
+       padding-bottom: 20px;
+       margin: 0px;
+       width: 409px;
+   }
+}
 
-@media only screen and (max-width: 375px) {
-  .vid__guitar {
-    padding-bottom: 20px;
-    margin: 0px;
-    width: 359px; } }
+@media only screen and (max-width : 375px) {
+    .vid__guitar {
+        padding-bottom: 20px;
+        margin: 0px;
+        width: 359px;
+    }
+ }
 
-@media only screen and (max-width: 320px) {
-  .vid__guitar {
-    padding-bottom: 20px;
-    margin: 0px;
-    width: 304px; } }
-
+ @media only screen and (max-width : 320px) {
+    .vid__guitar {
+        padding-bottom: 20px;
+        margin: 0px;
+        width: 304px;
+    }
+ } */
 /* título tienda */
 .tit__tienda {
   display: flex;
@@ -168,6 +181,6 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
   .error404body .error404 {
-    color: #b1b1b1; }
+    color: #aaaaaa; }
   .error404body .error404parrf {
-    color: #b1b1b1; }
+    color: #aaaaaa; }
