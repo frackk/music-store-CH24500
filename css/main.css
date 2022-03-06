@@ -104,10 +104,11 @@
 .tit__tienda {
   display: flex;
   justify-content: center;
-  background-color: #767676;
+  background-color: #b1b1b1;
   margin-bottom: 0px;
-  color: #141313;
-  padding: 3px; }
+  color: black;
+  padding: 3px;
+  font-family: 'Fredericka the Great', cursive; }
 
 /* botón cards tienda */
 .btn-primary {
