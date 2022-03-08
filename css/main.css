@@ -108,7 +108,7 @@
   margin-bottom: 0px;
   color: black;
   padding: 3px;
-  font-family: 'Fredericka the Great', cursive; }
+  font-family: "Fredericka the Great"; }
 
 /* botón cards tienda */
 .btn-primary {
@@ -188,5 +188,13 @@
 
 /* soporte tecnico @ txt */
 .supporttxt {
-  font-family: 'Fredericka the Great', cursive;
-  font-family: 'Prompt', sans-serif; }
+  font-family: "Prompt", sans-serif;
+  text-align: center; }
+
+@media screen and (max-width: 768px) {
+  .supporttxt {
+    font-size: 9px; }
+  .supportapp {
+    font-size: 12px; } }
+
+/* logo fix responsive */
