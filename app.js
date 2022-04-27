@@ -14,3 +14,15 @@ temaBtn.addEventListener('click', () => {
     body.classList.add('tema-light');
   }
 });
+
+// sweet alert tienda
+function sweetAlert() {
+    Swal.fire({
+        icon: 'success',
+        title: 'Listo',
+        text: 'Tu mensaje ha sido enviado!',
+        footer: '<a href="index.html"Desea volver a la página inicial?</a>',
+        timer: 5000,
+        timerprogressBar: true
+    })
+}
