@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nombre": "Violín Parker",
+        "precio": 19000.00,
+        "tags": ["abeto", "oscuro"]
+    },
+    {
+        "id": 2,
+        "nombre": "Guitarra Black",
+        "precio": 149999.99,
+        "tags": ["eléctrica", "negra y blanca"]
+    },
+    {
+        "id": 3,
+        "nombre": "Teclado Casio",
+        "precio": 11500.00,
+        "tags": ["MidI", "usb"]
+    },
+    {
+        "id": 4,
+        "nombre": "Guitarra Criolla",
+        "precio": 7000.00,
+        "tags": ["arce", "clara"]
+    },
+    {
+        "id": 5,
+        "nombre": "Micrófono",
+        "precio": 2000.00,
+        "tags": ["genérico", "usb"]
+    },
+    {
+        "id": 6,
+        "nombre": "Guitarra Maple",
+        "precio": 14000.00,
+        "tags": ["Maple", "electro-acústica"]
+    },
+    {
+        "id": 7,
+        "nombre": "Guitarra Fender",
+        "precio": 82000.00,
+        "tags": ["elcéctrica", "amarilla"]
+    },
+    {
+        "id": 8,
+        "nombre": "Amplificador WS",
+        "precio": 34999.99,
+        "tags": ["compatible", "negro"]
+    },
+    {
+        "id": 9,
+        "nombre": "Batería Kit",
+        "precio": 52000.00,
+        "tags": ["7 tambores", "bordó"]
+    },
+    {
+        "id": 10,
+        "nombre": "Teclado Yamaha",
+        "precio": 21000.00,
+        "tags": ["con soporte", "usb"]
+    },
+    {
+        "id": 11,
+        "nombre": "Sintetizador KCL",
+        "precio": 17000.00,
+        "tags": ["adaptable", "usb"]
+    },
+    {
+        "id": 12,
+        "nombre": "Guitarra Zero",
+        "precio": 56000.00,
+        "tags": ["eleéctrica", "negra y blanca"]
+    }
+]
